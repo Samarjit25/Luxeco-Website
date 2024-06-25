@@ -1,0 +1,174 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./Group.svg",
+                "title": "QUALITY FIBRE",
+                "description": "Experience the finest in quality clothing, crafted with premium materials for lasting comfort and style."
+            },
+            {
+                "id": 2,
+                "image": "./affordable_price.svg",
+                "title": "AFFORDABLE PRICES",
+                "description": "Elevate your wardrobe without breaking the bank with our affordable pricing on all collections."
+            },
+            {
+                "id": 3,
+                "image": "./designers.svg",
+                "title": "EXPERT DESIGNERS",
+                "description": "Explore our exclusive designs created by top designers, bringing you the latest trends and timeless elegance."
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./shirt9.webp",
+                "title": "Men's Traditional Wear",
+                "category": "Dinner"
+            },
+            {
+                "id": 2,
+                "image": "./shirt2.avif",
+                "title": "Women's Fancy Wear",
+                "category": "Dinner"
+            },
+            {
+                "id": 3,
+                "image": "./shirt3.jpg",
+                "title": "Women's Top",
+                "category": "Breakfast"
+            },
+            {
+                "id": 4,
+                "image": "./shirt4.webp",
+                "title": "Women's Dress",
+                "category": "Dinner"
+            },
+            {
+                "id": 5,
+                "image": "./shirt5.webp",
+                "title": "Men's Casual Wear",
+                "category": "Lunch"
+            },
+            {
+                "id": 6,
+                "image": "./shirt6.avif",
+                "title": "Women's Suitwear",
+                "category": "Dinner"
+            },
+            {
+                "id": 7,
+                "image": "./shirt7.avif",
+                "title": "Kids Wear",
+                "category": "Dinner"
+            },
+            {
+                "id": 8,
+                "image": "./shirt8.jpeg",
+                "title": "Women's Traditional Wear",
+                "category": "Dinner"
+            }
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./designer1.png",
+                "name": "Tyler Brown",
+                "designation": "Women's Wear Designer"
+            },
+            {
+                "id": 2,
+                "image": "./designer2.png",
+                "name": "Bruce Roy",
+                "designation": "Men's Wear Designer"
+            },
+            {
+                "id": 3,
+                "image": "./designer3.png",
+                "name": "John Legend",
+                "designation": "Kids' Wear Designer"
+            },
+            {
+                "id": 4,
+                "image": "./designer4.png",
+                "name": "MANISH MALHOTRA",
+                "designation": "Traditional Wear Designer"
+            }
+        ],
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./review1.png",
+                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
+                "rating": 4,
+                "userName": "Jane Cooper"
+            },
+            {
+                "id": 2,
+                "image": "./review2.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 4.5,
+                "userName": "Esther Howard"
+            },
+            {
+                "id": 3,
+                "image": "./review3.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 5,
+                "userName": "Guy Hawkins"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "14",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "20",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "08",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "200",
+                "title": "Food Dishes"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "Home",
+                "link": "heroSection"
+            },
+            {
+                "id": 2,
+                "title": "About Us",
+                "link": "about"
+            },
+            {
+                "id": 3,
+                "title": "Qualities",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "Team",
+                "link": "team"
+            },
+            {
+                "id": 5,
+                "title": "Reservation",
+                "link": "reservation"
+            }
+        ]
+    
+    } 
+    ]
+}
