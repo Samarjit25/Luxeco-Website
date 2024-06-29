@@ -17,7 +17,7 @@ const Reservation = () => {
     const handleReservation = async(e)=>{
         e.preventDefault();
         try{
-            const{data} = await axios.post("http://127.0.0.1:4000/api/v1/reservation/send",{firstName, lastName, email, date, time, phone},
+            const{data} = await axios.post("https://restaurant-website-gtey.onrender.com/api/v1/reservation/send",{firstName, lastName, email, date, time, phone},
                 {
                     headers:{
                         "Content-Type":"application/json"
