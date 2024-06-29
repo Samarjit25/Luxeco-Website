@@ -11,7 +11,7 @@ export const sendReservation =async (req, res, next)=>{
         await Reservation.create({firstName, lastName, email, phone, date, time});
         res.status(201).json({
             success: true,
-            message: "Reservation done successfully",
+            message: "Reservation done successfully"
         });
     }catch(error){
         if(error.name==='ValidationError'){
