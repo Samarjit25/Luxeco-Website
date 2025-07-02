@@ -3,6 +3,7 @@ import HeroSection from '../Components/HeroSection'
 import About from '../Components/About'
 import Qualities from '../Components/Qualities'
 import Menu from '../Components/Menu'
+import Gallery from '../Components/Gallery'  
 import WhoAreWe from '../Components/WhoAreWe'
 import Team from '../Components/Team'
 import Reservation from '../Components/Reservation'
@@ -14,6 +15,7 @@ const Home = () => {
       <HeroSection/>
       <About/>
       <Qualities/>
+      <Gallery/>
       <Team/>
       <Menu/>
       <Reservation/>
