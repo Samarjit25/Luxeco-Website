@@ -157,12 +157,12 @@
             },
             {
                 "id": 3,
-                "title": "Qualities",
-                "link": "qualities"
+                "title": "Photo Gallery",
+                "link": "gallery"
             },
             {
                 "id": 4,
-                "title": "Team",
+                "title": "Our Designers",
                 "link": "team"
             },
             {
