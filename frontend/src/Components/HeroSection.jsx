@@ -6,7 +6,8 @@ const HeroSection = () => {
     <section className="bg-white min-h-screen w-full" id="heroSection">
       <Navbar />
 
-      <div className="container mx-auto px-6 sm:px-10 md:px-16 lg:px-24 pt-24 md:pt-16 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+     <div className="max-w-screen-xl mx-auto px-6 sm:px-10 md:px-16 lg:px-20 grid grid-cols-1 md:grid-cols-2 items-center gap-17 pt-24 ">
+
         {/* Left Section */}
         <div className="space-y-6">
           <h1 className="text-5xl font-extrabold tracking-tight text-gray-900">
@@ -21,15 +22,15 @@ const HeroSection = () => {
           </div>
 
           <div className="flex items-center gap-4 mt-6">
-            <img src="./threelines.svg" alt="three lines" className="w-10 h-10" />
-            <span className="text-sm uppercase text-gray-500 tracking-widest">
+            <img src="https://res.cloudinary.com/dz2mlxltd/image/upload/v1751525768/2560px-Three_Lines_Ornament_Black_Up_Left.svg_ceb0uy.png" alt="three lines" className="w-15 h-7" />
+            <span className="text-sm uppercase text-gray-700 tracking-widest">
               Ethical & Stylish
             </span>
           </div>
         </div>
 
        {/* Right Section - Image with white gradient fade */}
-<div className="flex justify-center pt-10 relative">
+<div className="flex justify-center -pt-1 md:pt-0 items-start relative">
   <div className="relative w-full max-w-md md:max-w-lg lg:max-w-xl">
     <div className="relative w-full">
       <img
@@ -37,14 +38,10 @@ const HeroSection = () => {
         alt="hero"
         className="w-full rounded-xl z-10 relative"
       />
-
-      {/* Left Gradient */}
-      <div className="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-white to-transparent z-0" />
-      {/* Right Gradient */}
-      <div className="absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-white to-transparent z-0" />
     </div>
   </div>
 </div>
+
       </div>
     </section>
   );

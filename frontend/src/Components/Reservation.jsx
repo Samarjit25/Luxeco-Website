@@ -52,7 +52,7 @@ const Reservation = () => {
         </div> */}
 
         {/* Right form */}
-        <div className="bg-white p-8 rounded-xl border-gray 200 shadow-xl w-full max-w-xl mx-auto">
+        <div className="bg-white p-8 rounded-xl border border-gray-300 shadow-md w-full max-w-xl mx-auto text-center">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Make A Reservation</h1>
           <p className="text-gray-500 mb-6">For any queries, call us @ +91 - 8638721106</p>
 
@@ -116,7 +116,7 @@ const Reservation = () => {
               type="submit"
               className="w-full mt-4 inline-flex items-center justify-center gap-2 bg-emerald-600 text-white px-6 py-3 rounded-md font-medium hover:bg-emerald-700 transition"
             >
-              RESERVE NOW <HiOutlineArrowNarrowRight />
+              Reserve Now <HiOutlineArrowNarrowRight />
             </button>
           </form>
         </div>

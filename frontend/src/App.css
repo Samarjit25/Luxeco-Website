@@ -3,7 +3,9 @@
 @import "tailwindcss";
 /* @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css"; */
-
+.slick-dots li {
+  margin: 0 1px !important; /* Default is 5px */
+}
 
 @tailwind base;
 @tailwind components;

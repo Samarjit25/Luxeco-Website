@@ -5,19 +5,19 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472830/Nawain-fashion-store-by-Purge-Hangzhou-China_idn11t.jpg",
+  "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751518791/the-perfect-boutique-retail-interior-design-for-small-fashion-businesses_mnash5.webp",
+  "https://res.cloudinary.com/dz2mlxltd/image/upload/c_crop,w_1450,h_833/v1751518791/fashion-showroom-ladies-dress-shop-interior-design-5_tzryhz.jpg",
   "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472830/pexels-photo-1488463_kj6qgk.jpg",
-  "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472829/fashion-collection-hanging-in-modern-clothing-store-free-photo_wszlj7.jpg",
-  "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472829/fashion-outlets-of-niagara_bznsra.jpg",
+  "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751519582/850x450-Pix_9-1_yf95nv.jpg",
   "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472828/6808fd7f84e7f1bab2bba103_660c253582891454965d7701_Thumbnail20Image20x20px_jkmxtx.png",
-  "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751473475/istockphoto-1341947720-612x612_qmjsvt.jpg"
+  "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472829/apparel_entrepreneurship_what_your_clothing_brand_needs_to_stay_relevant_2019_rjd0mo.jpg"
 ];
 
 // Custom Arrow Components
 const PrevArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-4 bg-white shadow rounded-full hover:bg-gray-100"
+    className="absolute -left-20 top-1/2 transform -translate-y-1/2 z-10 p-4 bg-white shadow-xl rounded-full hover:bg-gray-50"
   >
     <FaChevronLeft className="text-gray-700" />
   </button>
@@ -26,7 +26,7 @@ const PrevArrow = ({ onClick }) => (
 const NextArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-4 bg-white shadow rounded-full hover:bg-gray-100"
+    className="absolute -right-20 top-1/2 transform -translate-y-1/2 z-10 p-4 bg-white shadow-xl rounded-full hover:bg-gray-50"
   >
     <FaChevronRight className="text-gray-700" />
   </button>
@@ -67,7 +67,7 @@ const Gallery = () => {
         <Slider {...settings}>
           {images.map((img, index) => (
             <div key={index} className="px-4">
-              <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+              <div className="rounded-xl overflow-hidden shadow-md ">
                 <img
                   src={img}
                   alt={`Slide ${index + 1}`}

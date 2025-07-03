@@ -19,11 +19,11 @@ const Qualities = () => {
               key={element.id}
               className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm hover:shadow-md hover:border-emerald-200 transition-all duration-300 ease-in-out group"
             >
-              <div className="flex items-center justify-center w-16 h-16 bg-emerald-50 rounded-full mb-4">
+              <div className="flex items-center justify-center bg-emerald-50 rounded-full  w-16 h-16  mb-4">
                 <img
                   src={element.image}
                   alt={element.title}
-                  className="w-8 h-8 object-contain"
+                  className="w-11 h-11 object-contain"
                 />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 group-hover:text-emerald-600 transition-colors duration-200">

@@ -3,24 +3,37 @@
         {"ourQualities" : [
             {
                 "id": 1,
-                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751474138/Screenshot_2025-07-02_220420-removebg-preview_j5ixmr.png",
+                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751524451/Screenshot_2025-07-03_115610-removebg-preview_imryil.png",
                 "title": "QUALITY FIBRE",
                 "description": "Experience the finest in quality clothing, crafted with premium materials for lasting comfort and style."
             },
             {
                 "id": 2,
-                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751474138/Screenshot_2025-07-02_220254-removebg-preview_ya5hjg.png",
+                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751524452/Screenshot_2025-07-03_115659-removebg-preview_oqsqiq.png",
                 "title": "EXCLUSIVITY",
                 "description": "Limited-edition collections and bespoke designs tailored for those who seek distinction."
             },
             {
                 "id": 3,
-                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751474138/Screenshot_2025-07-02_220328-removebg-preview_plegfd.png",
+                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751524451/Screenshot_2025-07-03_115621-removebg-preview_lqaw0w.png",
                 "title": "EXPERT DESIGNERS",
                 "description": "Explore our exclusive designs created by top designers, bringing you the latest trends and timeless elegance."
             }
         ],
         "dishes": [
+            
+            {
+                "id": 8,
+                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751478061/LS0612_yvgxqg.webp",
+                "title": "Women's Traditional Wear",
+                "category": "Dinner"
+            },
+            {
+                "id": 1,
+                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472829/1022609b_cooxdq.jpg",
+                "title": "Men's Traditional Wear",
+                "category": "Dinner"
+            },
             
             {
                 "id": 2,
@@ -30,7 +43,7 @@
             },
             {
                 "id": 3,
-                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472828/7112oFclI2L._UY1100__z6rge5.jpg",
+                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751527589/d7a8166dece36b88527f058995e59a54_brgxjn.jpg",
                 "title": "Women's Top",
                 "category": "Breakfast"
             },
@@ -48,24 +61,11 @@
             },
             {
                 "id": 5,
-                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751478428/men-s-red-moon-rider-graphic-printed-oversized-t-shirt-502017-1737092523-1_qsvkov.webp",
+                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751528054/a06e654c7467f9424c5a4dc6c884d48b_e1pjxb.jpg",
                 "title": "Men's Casual Wear",
                 "category": "Lunch"
             },
             
-            {
-                "id": 1,
-                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751472829/1022609b_cooxdq.jpg",
-                "title": "Men's Traditional Wear",
-                "category": "Dinner"
-            },
-            
-            {
-                "id": 8,
-                "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751478061/LS0612_yvgxqg.webp",
-                "title": "Women's Traditional Wear",
-                "category": "Dinner"
-            },
             {
                 "id": 7,
                 "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751478603/stylish-kids-both-boys-girls-sitting-white-cube-against-beige-studio-background_1252624-48259_apnbst.avif",
@@ -77,25 +77,25 @@
             {
                 "id": 1,
                 "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751481476/Screenshot_2025-07-03_000733_ef4thu.png",
-                "name": "Tyler Brown",
+                "name": "Adrian Vellor",
                 "designation": "Women's Wear Designer"
             },
             {
                 "id": 2,
                 "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751481525/Screenshot_2025-07-03_000826_pzqngg.png",
-                "name": "Bruce Roy",
+                "name": "Lina Karo ",
                 "designation": "Men's Wear Designer"
             },
             {
                 "id": 3,
                 "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751481377/Screenshot_2025-07-03_000602_lsqnbt.png",
-                "name": "John Legend",
+                "name": "Marcus Norell",
                 "designation": "Kids' Wear Designer"
             },
             {
                 "id": 4,
                 "image": "https://res.cloudinary.com/dz2mlxltd/image/upload/v1751481198/Screenshot_2025-07-03_000255_qomp3o.png",
-                "name": "MANISH MALHOTRA",
+                "name": "Elira Synn",
                 "designation": "Traditional Wear Designer"
             }
         ],

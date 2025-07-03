@@ -27,14 +27,6 @@ const About = () => {
           <p className="text-gray-600 text-lg leading-relaxed text-justify">
            Welcome to <span className="font-semibold text-emerald-600">LuxeEco Fashion</span>, where fashion meets sustainability. We create stylish, high-quality clothing using eco-friendly materials and ethical practices. Our mission is to inspire confidence, promote sustainability, and foster inclusivity—offering timeless pieces for everyone. Each garment blends craftsmanship and innovation, delivering conscious elegance for the modern world. Join us in redefining fashion with purpose, passion, and a commitment to lasting impact.
           </p>
-
-          {/* <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-emerald-600 font-medium hover:underline group"
-          >
-            Explore Menu{" "}
-            <HiOutlineArrowRight className="transition-transform duration-200 group-hover:translate-x-1" />
-          </Link> */}
         </div>
       </div>
     </section>
