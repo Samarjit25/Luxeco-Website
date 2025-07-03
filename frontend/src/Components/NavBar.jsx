@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { data } from "../Pages/restapi.json";
 import { Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx"; // ✅ close icon
 
 const NavBar = () => {
   const [show, setShow] = useState(false);
@@ -30,12 +31,12 @@ const NavBar = () => {
           ))}
         </div>
 
-        {/* Hamburger Icon */}
+        {/* Hamburger / Close Icon */}
         <div
           className="md:hidden text-2xl text-gray-700 cursor-pointer"
           onClick={() => setShow(!show)}
         >
-          <GiHamburgerMenu />
+          {show ? <RxCross1 /> : <GiHamburgerMenu />}
         </div>
       </div>
 
