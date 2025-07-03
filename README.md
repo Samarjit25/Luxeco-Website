@@ -1,2 +1,2 @@
-Live website URL: https://luxeeco-fashion.netlify.app/
+Live website URL: https://luxeco-website.vercel.app/
 
