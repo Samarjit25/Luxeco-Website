@@ -1,4 +1,4 @@
-import app from "./app.js";
+
 const express = require('express');
 const cors = require('cors');
 
